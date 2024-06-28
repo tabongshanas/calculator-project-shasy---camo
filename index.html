@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shasy - CaMo</title>
+    <link rel="stylesheet" href="./icons/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./stlyes/main_stlyes.css">
+</head>
+    <body>
+        <div id="calculator">
+
+            <div id="calculator-top-content">
+                <div id="logo">
+                    <div id="logo-text">
+                        <p>
+                            shasy
+                        </p>
+                    </div>
+                    <div id="main-logo">
+                        <p>
+                            camo
+                        </p>
+                    </div>
+                </div>
+
+                <div id="calculator-style"></div>
+
+            </div>
+
+            <input id="input" readonly>
+
+            <div id="btns">
+                <button onclick="mainBtnDisplay('7')">7</button>
+                <button onclick="mainBtnDisplay('8')">8</button>
+                <button onclick="mainBtnDisplay('9')">9</button>
+                <button onclick="mainBtnDisplay('+')" class="operator">+</button>
+                <button onclick="mainBtnDisplay('4')">4</button>
+                <button onclick="mainBtnDisplay('5')">5</button>
+                <button onclick="mainBtnDisplay('6')">6</button>
+                <button onclick="mainBtnDisplay('-')" class="operator">-</button>
+                <button onclick="mainBtnDisplay('1')">1</button>
+                <button onclick="mainBtnDisplay('2')">2</button>
+                <button onclick="mainBtnDisplay('3')">3</button>
+                <button onclick="mainBtnDisplay('*')" class="operator">*</button>
+                <button onclick="mainBtnDisplay('0')">0</button>
+                <button onclick="mainBtnDisplay('.')">.</button>
+                <button onclick="mainBtnDisplay('/')" class="operator">/</button>
+
+                <button onclick="clearInput()" class="operator">C</button>
+                <button onclick="calculate()" class="operator">=</button>
+            </div>
+        </div>
+
+        <script src="./javascript.js"></script>
+    </body>
+</html>
