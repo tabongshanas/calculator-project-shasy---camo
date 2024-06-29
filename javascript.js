@@ -15,6 +15,6 @@ function calculate() {
     }
 
     catch(error) {
-        inputEl.value = "Syntax Error!";
+        inputEl.value = "Math Error!";
     }
 }

@@ -45,6 +45,22 @@ body {
     box-shadow: inset 1px 1px 30px rgba(0, 0, 0, 0.877);
 }
 
+.vertical-line {
+    background-color: black;
+    width: 5px;
+    height: 100%;
+    margin: 0 10px;
+}
+.icon i {
+    font-size: 40px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+
 #main-logo {
     color: var(--primary-color);
 }
